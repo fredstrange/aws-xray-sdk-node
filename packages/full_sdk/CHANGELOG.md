@@ -15,7 +15,7 @@
 * change: Updated aws-xray-sdk-postgres to 1.1.7. No further changes.
 
 ## 1.1.5
-* The X-Ray SDK for Node.js is now an open source project. You can follow the project and submit issues and pull requests on [GitHub](https://github.com/aws/aws-xray-sdk-node).
+* The X-Ray SDK for Node.js is now an open source project. You can follow the project and submit issues and pull requests on [GitHub](https://github.com/fredstrange/aws-xray-sdk-node).
 
 ## 1.1.4
 

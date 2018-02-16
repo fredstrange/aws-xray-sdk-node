@@ -39,5 +39,5 @@
     "x ray"
   ],
   "license": "Apache-2.0",
-  "repository": "https://github.com/aws/aws-xray-sdk-node/tree/master/packages/restify"
+  "repository": "https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/restify"
 }

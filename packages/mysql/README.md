@@ -21,7 +21,7 @@ Manual mode requires that you pass around the segment reference. See the example
 
 ## Automatic mode example
 
-    var AWSXRay = require('aws-xray-sdk-core');
+    var AWSXRay = require('@fredstrange/aws-xray-sdk-core');
     var captureMySQL = require('aws-xray-sdk-mysql');
 
     var mysql = captureMySQL(require('mysql'));
@@ -46,7 +46,7 @@ Manual mode requires that you pass around the segment reference. See the example
 
 ## Manual mode example
 
-    var AWSXRay = require('aws-xray-sdk-core');
+    var AWSXRay = require('@fredstrange/aws-xray-sdk-core');
     var captureMySQL = require('aws-xray-sdk-mysql');
 
     var mysql = captureMySQL(require('mysql'));

@@ -10,7 +10,7 @@ requests and responses (via middleware). It also automatically records local dat
 such as function calls, time, variables (via metadata and annotations), and Amazon
 EC2 instance data (via plugins). Currently, only Express
 applications are supported for automatic capturing. See the [aws-xray-sdk-express]
-(https://github.com/aws/aws-xray-sdk-node/tree/master/packages/express) package for additional information.
+(https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/express) package for additional information.
 
 The SDK exposes the Segment and Subsegment objects so you can create your own capturing
 mechanisms, but a few are supplied.
@@ -256,7 +256,7 @@ CLS provides several methods of setting the context. Here is an example usage.
 
 If you are using a different web framework and want to set up automatic capturing,
 the X-Ray SDK provides helper functions under `AWSXRay.middleware`.
-See the [aws-xray-sdk-express](https://github.com/aws/aws-xray-sdk-node/tree/master/packages/express) module for more information.
+See the [aws-xray-sdk-express](https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/express) module for more information.
 
 For additional information about and examples for using the CLS namespace to create
 a new context, see: https://github.com/othiym23/node-continuation-local-storage.
@@ -267,7 +267,7 @@ If you have chained native Promise and you have subsegments generated within tho
 
     AWSXRay.capturePromise();
 
-This will solve the issue where the subsegments within a Promise chain are attached to wrong segments or nested instead of being siblings. For more details on the discussion please see this [PR](https://github.com/aws/aws-xray-sdk-node/pull/11).
+This will solve the issue where the subsegments within a Promise chain are attached to wrong segments or nested instead of being siblings. For more details on the discussion please see this [PR](https://github.com/fredstrange/aws-xray-sdk-node/pull/11).
 
 ## Example code
 

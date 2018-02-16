@@ -23,9 +23,9 @@ This package includes all other AWS X-Ray packages except `aws-xray-sdk-restify`
 
 ## Setup
 
-The core package contains the base SDK functionality.  Please see the aws-xray-sdk-core [README.md](https://github.com/aws/aws-xray-sdk-node/tree/master/packages/core/README.md) for more details.
+The core package contains the base SDK functionality.  Please see the aws-xray-sdk-core [README.md](https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/core/README.md) for more details.
 
 ### Support for web frameworks
 
-* [Express](https://github.com/aws/aws-xray-sdk-node/tree/master/packages/express)
-* [Restify](https://github.com/aws/aws-xray-sdk-node/tree/master/packages/restify)(beta)
+* [Express](https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/express)
+* [Restify](https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/restify)(beta)

@@ -24,7 +24,7 @@ In manual mode, you can get the base segment off of the request object:
 
 Sampling rates are determined by the `aws-xray-sdk-core` package, using the default
 sampling file that is provided, or by overriding this with a custom sampling file.
-For more information on sampling, see aws-xray-sdk-core [README](https://github.com/aws/aws-xray-sdk-node/tree/master/packages/core/README.md).
+For more information on sampling, see aws-xray-sdk-core [README](https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/core/README.md).
 
 ## Dynamic and fixed naming modes
 
@@ -36,11 +36,11 @@ environment variable.
 
 The AWS X-Ray SDK Core defaults to a fixed naming mode. This means that each time the middleware creates a new segment for an incoming request,
 the name of that segment is set to the default name. In dynamic mode, the segment name can vary between the host header of the request or the default name.
-For more information about naming modes, see the aws-xray-sdk-core [README](https://github.com/aws/aws-xray-sdk-node/tree/master/packages/core/README.md).
+For more information about naming modes, see the aws-xray-sdk-core [README](https://github.com/fredstrange/aws-xray-sdk-node/tree/master/packages/core/README.md).
 
 ## Automatic mode examples
 
-    var AWSXRay = require('aws-xray-sdk-core');
+    var AWSXRay = require('@fredstrange/aws-xray-sdk-core');
     var xrayExpress = require('aws-xray-sdk-express');
     var app = express();
 
@@ -60,7 +60,7 @@ For more information about naming modes, see the aws-xray-sdk-core [README](http
 
 ## Manual mode examples
 
-    var AWSXRay = require('aws-xray-sdk-core');
+    var AWSXRay = require('@fredstrange/aws-xray-sdk-core');
     var xrayExpress = require('aws-xray-sdk-express');
     var app = express();
 

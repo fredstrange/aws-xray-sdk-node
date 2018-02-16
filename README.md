@@ -25,19 +25,19 @@ issues for tracking bugs and feature requests.
 
 * Ask a question in the [AWS X-Ray Forum](https://forums.aws.amazon.com/forum.jspa?forumID=241&start=0).
 * Open a support ticket with [AWS Support](http://docs.aws.amazon.com/awssupport/latest/user/getting-started.html).
-* If you think you may have found a bug, open an [issue](https://github.com/aws/aws-xray-sdk-node/issues/new).
+* If you think you may have found a bug, open an [issue](https://github.com/fredstrange/aws-xray-sdk-node/issues/new).
 
 ## Opening Issues
 
 If you encounter a bug with the AWS X-Ray SDK for Node.js, we want to hear about
-it. Before opening a new issue, search the [existing issues](https://github.com/aws/aws-xray-sdk-node/issues)
+it. Before opening a new issue, search the [existing issues](https://github.com/fredstrange/aws-xray-sdk-node/issues)
 to see if others are also experiencing the issue. Include the version of the AWS X-Ray
 SDK for Node.js, Node.js runtime, and other dependencies if applicable. In addition, 
 include the repro case when appropriate.
 
 The GitHub issues are intended for bug reports and feature requests. For help and
 questions about using the AWS X-Ray SDK for Node.js, use the resources listed
-in the [Getting Help](https://github.com/aws/aws-xray-sdk-node#getting-help) section. Keeping the list of open issues lean helps us respond in a timely manner.
+in the [Getting Help](https://github.com/fredstrange/aws-xray-sdk-node#getting-help) section. Keeping the list of open issues lean helps us respond in a timely manner.
 
 ## Documentation
 

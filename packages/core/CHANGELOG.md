@@ -3,16 +3,16 @@
 <!--ENTRYINSERT-->
 
 ## 1.2.0
-* feature: All S3 operations are added to `aws_whitelist.json`. [#PR17](https://github.com/aws/aws-xray-sdk-node/pull/17)
-* feature: Opt-in patch on CLS so subsegments generated within V8 native Promise have correct hierarchy. [#PR11](https://github.com/aws/aws-xray-sdk-node/pull/11) 
-* bugfix: Fixed http client capture with a string passed in `get()` and `request()`. [#ISSUE16](https://github.com/aws/aws-xray-sdk-node/issues/16)
-* bugfix: Fixed http subsegment would be left unclosed if response is not consumed. [#ISSUE18](https://github.com/aws/aws-xray-sdk-node/issues/18)
+* feature: All S3 operations are added to `aws_whitelist.json`. [#PR17](https://github.com/fredstrange/aws-xray-sdk-node/pull/17)
+* feature: Opt-in patch on CLS so subsegments generated within V8 native Promise have correct hierarchy. [#PR11](https://github.com/fredstrange/aws-xray-sdk-node/pull/11)
+* bugfix: Fixed http client capture with a string passed in `get()` and `request()`. [#ISSUE16](https://github.com/fredstrange/aws-xray-sdk-node/issues/16)
+* bugfix: Fixed http subsegment would be left unclosed if response is not consumed. [#ISSUE18](https://github.com/fredstrange/aws-xray-sdk-node/issues/18)
 
 ## 1.1.7
 * bugfix: Fixed issue where undefined host name would not match any path based sampling rule.
 
 ## 1.1.5
-* The X-Ray SDK for Node.js is now an open source project. You can follow the project and submit issues and pull requests on [GitHub](https://github.com/aws/aws-xray-sdk-node).
+* The X-Ray SDK for Node.js is now an open source project. You can follow the project and submit issues and pull requests on [GitHub](https://github.com/fredstrange/aws-xray-sdk-node).
 
 ## 1.1.4
 * bugfix: Fixing issue where an unexpected segment on the CLS context would fail in Lambda 
